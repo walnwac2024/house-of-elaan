@@ -10,16 +10,16 @@ const Etc = () => {
         <picture>
           <source 
             media="(max-width: 640px)" 
-            srcSet="hoe/ElaanETC.JPG" 
+            srcSet="logos/ElaanETC.JPG" 
             className="w-full h-full object-cover object-center" 
           />
           <source 
             media="(max-width: 1024px)" 
-            srcSet="hoe/ElaanETC.JPG" 
+            srcSet="logos/ElaanETC.JPG" 
             className="w-full h-full object-cover object-center" 
           />
           <img 
-            src="hoe/ElaanETC.JPG" 
+            src="logos/ElaanETC.JPG" 
             alt="Scenic View" 
             className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105" 
           />

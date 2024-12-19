@@ -11,16 +11,16 @@ const CAndJ = () => {
         <picture>
           <source 
             media="(max-width: 640px)" 
-            srcSet="hoe/C&L.JPG" 
+            srcSet="logos/C&L.JPG" 
             className="w-full h-full object-cover object-center" 
           />
           <source 
             media="(max-width: 1024px)" 
-            srcSet="hoe/C&L.JPG" 
+            srcSet="logos/C&L.JPG" 
             className="w-full h-full object-cover object-center" 
           />
           <img 
-            src="hoe/C&L.JPG" 
+            src="logos/C&L.JPG" 
             alt="Scenic View" 
             className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105" 
           />

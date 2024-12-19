@@ -28,7 +28,7 @@ const Aftersale = () => {
         </div>
 
         <div className="relative z-10 w-full">
-          <div className="ml-[40%] xs:ml-[40%] sm:ml-[45%] xl:ml-[45%] mt-[-30%] xs:mt-[-28%] sm:mt-[-19%] md:mt-[-15%] w-[55%] xs:w-[55%] sm:w-[50%] md:w-[43%] lg:w-[42%] xl:w-[40%] bg-[#E62E2D]  rounded-lg">
+          <div className="ml-[40%] xs:ml-[40%] sm:ml-[45%] xl:ml-[45%] mt-[-30%] xs:mt-[-28%] sm:mt-[-19%] md:mt-[-15%] w-[55%] xs:w-[55%] sm:w-[50%] md:w-[43%] lg:w-[42%] xl:w-[40%] bg-[#FF000E]  rounded-lg">
             {/* About Us Title */}
             <h2 className="xxs:text-base sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-left mb-0 pt-8 sm:pt-4 md:pt-0 sm:mb-0">
               <span className="text-white">AFTER SALES <div>SERVICES</div> </span> 

@@ -7,16 +7,16 @@
 //           <picture>
 //             <source 
 //               media="(max-width: 640px)" 
-//               srcset="logos/BGtext.PNG"
+//               srcset="HOE/BGtext.PNG"
 //               class="w-full h-full object-cover object-center"
 //             />
 //             <source 
 //               media="(max-width: 1024px)" 
-//               srcset="logos/BGtext.PNG"
+//               srcset="HOE/BGtext.PNG"
 //               class="w-full h-full object-cover object-center"
 //             />
 //             <img 
-//               src="logos/BGtext.PNG"  
+//               src="HOE/BGtext.PNG"  
 //               alt="Scenic View" 
 //               class="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105"
 //             />
@@ -40,16 +40,16 @@ const LastPage = () => {
           <picture>
             <source 
               media="(max-width: 640px)" 
-              srcSet="logos/BGtext.PNG" 
+              srcSet="HOE/BGtext.png" 
               className="w-full h-full object-cover object-center"
             />
             <source 
               media="(min-width: 641px) and (max-width: 1024px)" 
-              srcSet="logos/BGtext.PNG" 
+              srcSet="HOE/BGtext.png" 
               className="w-full h-full object-cover object-center"
             />
             <img
-              src="logos/BGtext.PNG"
+              src="HOE/BGtext.png"
               alt="Scenic View"
               className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-105"
             />

@@ -8,16 +8,16 @@ const Production = () => {
                 <picture>
                     <source 
                       media="(max-width: 640px)" 
-                      srcSet="logos/Elaan-Production.JPG" 
+                      srcSet="HOE/Elaan-Production.jpg" 
                       className="w-full h-full object-cover object-center" 
                     />
                     <source 
                       media="(max-width: 1024px)" 
-                      srcSet="logos/Elaan-Production.JPG" 
+                      srcSet="HOE/Elaan-Production.jpg" 
                       className="w-full h-full object-cover object-center" 
                     />
                     <img 
-                      src="logos/Elaan-Production.JPG"  
+                      src="HOE/Elaan-Production.jpg"  
                       alt="Scenic View" 
                       className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105" 
                     />

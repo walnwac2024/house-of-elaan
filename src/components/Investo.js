@@ -7,16 +7,16 @@
 //           <picture>
 //             <source 
 //               media="(max-width: 640px)" 
-//               srcset="HOE/Investo.JPG"
+//               srcset="hoe/Investo.JPG"
 //               class="w-full h-full object-cover object-center"
 //             />
 //             <source 
 //               media="(max-width: 1024px)" 
-//               srcset="HOE/Investo.JPG"
+//               srcset="hoe/Investo.JPG"
 //               class="w-full h-full object-cover object-center"
 //             />
 //             <img 
-//               src="HOE/Investo.JPG"  
+//               src="hoe/Investo.JPG"  
 //               alt="Scenic View" 
 //               class="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105"
 //             />
@@ -38,16 +38,16 @@ const Investo = () => {
                 <picture>
                     <source 
                       media="(max-width: 640px)" 
-                      srcSet="HOE/Investo.JPG" 
+                      srcSet="hoe/Investo.JPG" 
                       className="w-full h-full object-cover object-center" 
                     />
                     <source 
                       media="(max-width: 1024px)" 
-                      srcSet="HOE/Investo.JPG" 
+                      srcSet="hoe/Investo.JPG" 
                       className="w-full h-full object-cover object-center" 
                     />
                     <img 
-                      src="HOE/Investo.JPG"  
+                      src="hoe/Investo.JPG"  
                       alt="Scenic View" 
                       className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105" 
                     />

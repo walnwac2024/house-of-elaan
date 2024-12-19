@@ -23,7 +23,7 @@ function Home () {
       <div className="relative w-full h-screen overflow-hidden" id="#">
         <div className="absolute inset-0 animate-zoom-in">
           <img 
-            src="HOE/HOELogo.JPG" 
+            src="hoe/HOELogo.JPG" 
             alt="Scenic View" 
             className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105"
           />

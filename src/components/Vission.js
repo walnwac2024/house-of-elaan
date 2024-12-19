@@ -8,16 +8,16 @@ const Vision = () => {
         <picture>
           <source 
             media="(max-width: 640px)" 
-            srcSet="HOE/Our Vision.JPG"
+            srcSet="hoe/Our Vision.JPG"
             className="w-full h-full object-cover object-center"
           />
           <source 
             media="(max-width: 1024px)" 
-            srcSet="HOE/Our Vision.JPG"
+            srcSet="hoe/Our Vision.JPG"
             className="w-full h-full object-cover object-center"
           />
           <img 
-            src="HOE/Our Vision.JPG"  
+            src="hoe/Our Vision.JPG"  
             alt="Scenic View" 
             className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-105"
           />

@@ -8,16 +8,16 @@ const Kreator = () => {
         <picture>
           <source 
             media="(max-width: 640px)" 
-            srcSet="HOE/Kreators.JPG" 
+            srcSet="hoe/Kreators.JPG" 
             className="w-full h-full object-cover object-center" 
           />
           <source 
             media="(max-width: 1024px)" 
-            srcSet="HOE/Kreators.JPG" 
+            srcSet="hoe/Kreators.JPG" 
             className="w-full h-full object-cover object-center" 
           />
           <img 
-            src="HOE/Kreators.JPG" 
+            src="hoe/Kreators.JPG" 
             alt="Scenic View" 
             className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105" 
           />

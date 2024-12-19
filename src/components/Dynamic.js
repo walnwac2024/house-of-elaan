@@ -7,16 +7,16 @@
 //           <picture>
 //             <source 
 //               media="(max-width: 640px)" 
-//               srcset="HOE/Dynamics.JPG"
+//               srcset="hoe/Dynamics.JPG"
 //               class="w-full h-full object-cover object-center"
 //             />
 //             <source 
 //               media="(max-width: 1024px)" 
-//               srcset="HOE/Dynamics.JPG"
+//               srcset="hoe/Dynamics.JPG"
 //               class="w-full h-full object-cover object-center"
 //             />
 //             <img 
-//               src="HOE/Dynamics.JPG"  
+//               src="hoe/Dynamics.JPG"  
 //               alt="Scenic View" 
 //               class="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105"
 //             />
@@ -37,16 +37,16 @@ const Dynamic = () => {
         <picture>
           <source 
             media="(max-width: 640px)" 
-            srcSet="HOE/Dynamics.JPG" 
+            srcSet="hoe/Dynamics.JPG" 
             className="w-full h-full object-cover object-center" 
           />
           <source 
             media="(max-width: 1024px)" 
-            srcSet="HOE/Dynamics.JPG" 
+            srcSet="hoe/Dynamics.JPG" 
             className="w-full h-full object-cover object-center" 
           />
           <img 
-            src="HOE/Dynamics.JPG" 
+            src="hoe/Dynamics.JPG" 
             alt="Scenic View" 
             className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105" 
           />

@@ -7,16 +7,16 @@
 //           <picture>
 //             <source 
 //               media="(max-width: 640px)" 
-//               srcset="HOE/Elaan-Consultancy.JPG"
+//               srcset="hoe/Elaan-Consultancy.JPG"
 //               class="w-full h-full object-cover object-center"
 //             />
 //             <source 
 //               media="(max-width: 1024px)" 
-//               srcset="HOE/Elaan-Consultancy.JPG"
+//               srcset="hoe/Elaan-Consultancy.JPG"
 //               class="w-full h-full object-cover object-center"
 //             />
 //             <img 
-//               src="HOE/Elaan-Consultancy.JPG"  
+//               src="hoe/Elaan-Consultancy.JPG"  
 //               alt="Scenic View" 
 //               class="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105"
 //             />
@@ -39,16 +39,16 @@ const ElaanConsultancy = () => {
         <picture>
           <source 
             media="(max-width: 640px)" 
-            srcSet="HOE/Elaan-Consultancy.JPG" 
+            srcSet="hoe/Elaan-Consultancy.JPG" 
             className="w-full h-full object-cover object-center" 
           />
           <source 
             media="(max-width: 1024px)" 
-            srcSet="HOE/Elaan-Consultancy.JPG" 
+            srcSet="hoe/Elaan-Consultancy.JPG" 
             className="w-full h-full object-cover object-center" 
           />
           <img 
-            src="HOE/Elaan-Consultancy.JPG" 
+            src="hoe/Elaan-Consultancy.JPG" 
             alt="Scenic View" 
             className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105" 
           />

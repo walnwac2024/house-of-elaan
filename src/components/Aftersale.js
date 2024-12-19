@@ -7,16 +7,16 @@
 //         <picture>
 //           <source 
 //             media="(max-width: 640px)" 
-//             srcSet="HOE/After Sale Services.JPG" 
+//             srcSet="hoe/After Sale Services.JPG" 
 //             className="w-full h-full object-cover object-center" 
 //           />
 //           <source 
 //             media="(max-width: 1024px)" 
-//             srcSet="HOE/After Sale Services.JPG" 
+//             srcSet="hoe/After Sale Services.JPG" 
 //             className="w-full h-full object-cover object-center" 
 //           />
 //           <img 
-//             src="HOE/After Sale Services.JPG"  
+//             src="hoe/After Sale Services.JPG"  
 //             alt="Scenic View" 
 //             className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105" 
 //           />
@@ -63,16 +63,16 @@ const Aftersale = () => {
           <picture>
             <source 
               media="(max-width: 640px)" 
-              srcSet="HOE/After Sale Services.JPG" 
+              srcSet="hoe/After Sale Services.JPG" 
               className="w-full h-full object-cover object-center"
             />
             <source 
               media="(min-width: 641px) and (max-width: 1024px)" 
-              srcSet="HOE/After Sale Services.JPG" 
+              srcSet="hoe/After Sale Services.JPG" 
               className="w-full h-full object-cover object-center"
             />
             <img
-              src="HOE/After Sale Services.JPG"
+              src="hoe/After Sale Services.JPG"
               alt="Scenic View"
               className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-105"
             />

@@ -7,16 +7,16 @@
 //           <picture>
 //             <source 
 //               media="(max-width: 640px)" 
-//               srcset="HOE/Elaan Reserch Center.JPG"
+//               srcset="hoe/Elaan Reserch Center.JPG"
 //               class="w-full h-full object-cover object-center"
 //             />
 //             <source 
 //               media="(max-width: 1024px)" 
-//               srcset="HOE/Elaan Reserch Center.JPG"
+//               srcset="hoe/Elaan Reserch Center.JPG"
 //               class="w-full h-full object-cover object-center"
 //             />
 //             <img 
-//               src="HOE/Elaan Reserch Center.JPG"  
+//               src="hoe/Elaan Reserch Center.JPG"  
 //               alt="Scenic View" 
 //               class="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105"
 //             />
@@ -41,16 +41,16 @@ const Research = () => {
         <picture>
           <source 
             media="(max-width: 640px)" 
-            srcSet="HOE/Elaan Reserch Center.JPG" 
+            srcSet="hoe/Elaan Reserch Center.JPG" 
             className="w-full h-full object-cover object-center" 
           />
           <source 
             media="(max-width: 1024px)" 
-            srcSet="HOE/Elaan Reserch Center.JPG" 
+            srcSet="hoe/Elaan Reserch Center.JPG" 
             className="w-full h-full object-cover object-center" 
           />
           <img 
-            src="HOE/Elaan Reserch Center.JPG" 
+            src="hoe/Elaan Reserch Center.JPG" 
             alt="Scenic View" 
             className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105" 
           />

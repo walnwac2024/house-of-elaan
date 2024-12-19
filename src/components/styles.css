@@ -1,0 +1,18 @@
+.rotate-zoom-360 {
+    transform: rotate(360deg) scale(1.2);
+    transition: transform 1.5s ease-in-out; /* Animation lasts 1.5 seconds */
+  }
+  
+  .animate-zoom-in img {
+    animation: zoom-in 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes zoom-in {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  

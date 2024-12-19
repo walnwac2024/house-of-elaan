@@ -59,6 +59,9 @@ module.exports = {
         float: 'float 4s ease-in-out infinite',
         zoom: 'zoom 3s ease-in-out infinite',
         pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        fontFamily: {
+          gotham: ['Gotham Book', 'sans-serif'], // Add your font here
+        },
         // 'zoom-pulse': {
         //   '0%, 100%': { transform: 'scale(1)' },
         //   '50%': { transform: 'scale(1.1)' },

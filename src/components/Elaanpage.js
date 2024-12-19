@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 
 const Elaanpage = () => {
-    const [activeImage, setActiveImage] = useState("HOE/Elaan-marketing-BG-2.JPG");
+    const [activeImage, setActiveImage] = useState("HOE/Elaan-marketing-BG-2.jpg");
     const [selectedImage, setSelectedImage] = useState(null);
     const [isAnimating, setIsAnimating] = useState(false);
     const [clickPosition, setClickPosition] = useState({ x: 0, y: 0 });

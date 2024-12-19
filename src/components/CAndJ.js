@@ -11,12 +11,12 @@ const CAndJ = () => {
         <picture>
           <source 
             media="(max-width: 640px)" 
-            srcSet="HOE/C&L.JPG" 
+            src="HOE/C&L.JPG" 
             className="w-full h-full object-cover object-center" 
           />
           <source 
             media="(max-width: 1024px)" 
-            srcSet="HOE/C&L.JPG" 
+            src="HOE/C&L.JPG" 
             className="w-full h-full object-cover object-center" 
           />
           <img 

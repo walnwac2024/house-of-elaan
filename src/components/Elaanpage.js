@@ -75,7 +75,7 @@ const Elaanpage = () => {
                                     alt="Logo" 
                                     className="w-48 my-10 mx-auto md:mx-2" 
                                 />
-                                <p className={`text-base leading-relaxed w-full text-justify mr-4 ${activeImage === "HOE/Elaan-marketing-BG-2.JPG" ? 'text-white' : 'text-black'}`}>
+                                <p className={`text-base leading-relaxed w-full text-justify mr-4 ${activeImage === "HOE/Elaan-marketing-BG-2.jpg" ? 'text-white' : 'text-black'}`}>
                                     {contentData[activeImage]?.text || "Elaan Marketing stands as a premier real estate marketing firm with a diverse portfolio of ongoing projects spanning Islamabad and other key cities across Pakistan. Specializing in both residential and commercial properties, we offer a comprehensive suite of services aimed at connecting buyers with the most promising real estate opportunities in the region. Our expertise extends from high-rise developments to expansive residential communities, each carefully curated to meet the specific needs and aspirations of our diverse clients. With a strong commitment to integrity, innovation, and excellence, Elaan Marketing serves as a trusted partner in navigating Pakistan's dynamic real estate landscape."}
                                 </p>
                             </div>

@@ -11,16 +11,16 @@ const Aftersale = () => {
           <picture>
             <source 
               media="(max-width: 640px)" 
-              srcSet="HOE /After Sale Services.jpg" 
+              srcSet="HOE/After Sale Services.jpg" 
               className="w-full h-full object-cover object-center"
             />
             <source 
               media="(min-width: 641px) and (max-width: 1024px)" 
-              srcSet="HOE /After Sale Services.jpg" 
+              srcSet="HOE/After Sale Services.jpg" 
               className="w-full h-full object-cover object-center"
             />
             <img
-              src="HOE /After Sale Services.jpg"
+              src="HOE/After Sale Services.jpg"
               alt="Scenic View"
               className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-105"
             />

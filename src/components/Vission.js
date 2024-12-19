@@ -17,7 +17,7 @@ const Vision = () => {
             className="w-full h-full object-cover object-center"
           />
           <img 
-            src="hoe/Our Vision.jpg"  
+            src="HOE/Our Vision.jpg"  
             alt="Scenic View" 
             className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-105"
           />

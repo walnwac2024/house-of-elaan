@@ -11,16 +11,16 @@ const AboutUs = () => {
           <picture>
             <source 
               media="(max-width: 640px)" 
-              srcSet="logos/BGtext.PNG" 
+              srcSet="/logos/BGtext.PNG" 
               className="w-full h-full object-cover object-center"
             />
             <source 
               media="(min-width: 641px) and (max-width: 1024px)" 
-              srcSet="logos/BGtext.PNG" 
+              srcSet="/logos/BGtext.PNG" 
               className="w-full h-full object-cover object-center"
             />
             <img
-              src="logos/BGtext.PNG"
+              src="/logos/BGtext.PNG"
               alt="Scenic View"
               className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-105"
             />

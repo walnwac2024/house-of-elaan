@@ -10,7 +10,7 @@ const Orbit = () => {
         {/* Central Logo */}
         <div className="center-logo absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 w-[20%] aspect-square">
       <img 
-        src="images/logos.png" 
+        src="images/HOE.png" 
         alt="Center Logo" 
         className="w-full h-full rounded-full object-cover animate-zoom-pulse"
       />

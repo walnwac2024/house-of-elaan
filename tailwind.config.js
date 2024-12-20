@@ -36,6 +36,55 @@ module.exports = {
         '320': '80rem',  // 1280px
         '384': '96rem',  // 1536px
       },
+      fontFamily: {
+        gotham: ['Gotham Book', 'Arial', 'sans-serif'],
+      },
+      fontSize: {
+        'xs': '0.75rem',      // 12px ≈ 1ft
+        'sm': '0.875rem',     // 14px ≈ 1.17ft
+        'base': '1rem',       // 16px ≈ 1.33ft
+        'lg': '1.125rem',     // 18px ≈ 1.5ft
+        'xl': '1.25rem',      // 20px ≈ 1.67ft
+        '2xl': '1.5rem',      // 24px ≈ 2ft
+        '3xl': '1.875rem',    // 30px ≈ 2.5ft
+        '4xl': '2.25rem',     // 36px ≈ 3ft
+        '5xl': '3rem',        // 48px ≈ 4ft
+        '6xl': '3.75rem',     // 60px ≈ 5ft
+        '7xl': '4.5rem',      // 72px ≈ 6ft
+        '8xl': '6rem',        // 96px ≈ 8ft
+        '9xl': '8rem',        // 128px ≈ 10.67ft
+        'custom-xxs': '0.65rem',  // 10.4px ≈ 0.87ft
+        'custom-huge': '10rem',   // 160px ≈ 13.33ft
+      },
+      lineHeight: {
+        'extra-tight': '0.8',  // Very tight
+        'tight': '0.99',         // Slightly tight
+        'normal': '1',          // Default
+        'relaxed': '1.5',       // Relaxed spacing
+        'loose': '2',           // Loose spacing
+        'custom-1': '1.25',     // Custom line height
+        'custom-2': '1.75',     // Custom relaxed line height
+        'custom-3': '2.5',      // Extra loose
+      },
+      letterSpacing: {
+        'extra-tight': '-0.03em', // Slightly tighter
+        'tight': '-0.025em',      // Tighter
+        'normal': '0em',          // Default
+        'wide': '0.025em',        // Slightly wide
+        'wider': '0.05em',        // Wider
+        'extra-wide': '0.1em',    // Extra wide
+        'custom-tight': '-0.02em', // Custom tight
+        'custom-loose': '0.2em',   // Custom wide
+      },
+      fontWeight: {
+        'extra-thin': '100',      // Extra thin
+        'semi-thin': '200',       // Custom semi-thin
+        'regular': '400',         // Default (regular)
+        'semi-bold': '600',       // Custom semi-bold
+        'extra-bold': '800',      // Extra bold
+        'ultra-bold': '900',      // Ultra bold (heavier than 800)
+        'custom-heavy': '950',    // Custom heavy (rarely used)
+      },
       
       keyframes: {
         float: {
@@ -59,13 +108,7 @@ module.exports = {
         float: 'float 4s ease-in-out infinite',
         zoom: 'zoom 3s ease-in-out infinite',
         pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-        fontFamily: {
-          gotham: ['Gotham Book', 'sans-serif'], // Add your font here
-        },
-        // 'zoom-pulse': {
-        //   '0%, 100%': { transform: 'scale(1)' },
-        //   '50%': { transform: 'scale(1.1)' },
-        // },
+        
         
       },
       

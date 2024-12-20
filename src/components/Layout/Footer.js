@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <div className="mt-8 bg-violet-900 pt-9">
+    <div className="mt-8 bg-[#FF000E] pt-9">
   <div className="mx-auto w-full max-w-[1166px] px-4 xl:px-0">
     <div className="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
       <div className="md:w-[316px]">
@@ -11,9 +11,7 @@ const Footer = () => {
           <span className="text-rose-600">YOUR</span>LOGO
         </h1>
         <p />
-        <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Eos, fugit non. Incidunt dolorum adipisci, tempore asperiores nemo odio facere officiis enim animi
-          placeat eaque nesciunt alias beatae id, at dicta.</p>
+        <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">House of Elaan is a dynamic conglomerate with expertise across various industries, including construction, sales and marketing, IT, and architecture. We are dedicated to delivering top-notch financial and legal services that align with global standards.</p>
         <div className="mt-[18px] flex gap-4">
           <a className="hover:scale-110" target="_blank" href="#"><img alt="facebook icon" loading="lazy" width={36} height={36} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/facebook.svg" /></a><a className="hover:scale-110" target="_blank" href="/"><img alt="linkdin icon" loading="lazy" width={36} height={36} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/linkdin.svg" /></a><a className="hover:scale-110" target="_blank" href="/"><img alt="instagram icon" loading="lazy" width={36} height={36} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/instagram1.svg" /></a><a className="hover:scale-110" target="_blank" href><img alt="twitter icon" loading="lazy" width={36} height={36} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/twitter.svg" /></a><a className="hover:scale-110" target="_blank" href="https://www.youtube.com/"><img alt="youtube icon" loading="lazy" width={36} height={36} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/youtube.svg" /></a>
         </div>

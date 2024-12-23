@@ -58,7 +58,7 @@ module.exports = {
       },
       lineHeight: {
         'extra-tight': '0.8',  // Very tight
-        'tight': '0.99',         // Slightly tight
+        'tight': '0.99999999999999',         // Slightly tight
         'normal': '1',          // Default
         'relaxed': '1.5',       // Relaxed spacing
         'loose': '2',           // Loose spacing

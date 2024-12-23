@@ -64,10 +64,10 @@ const Investo = () => {
                                 <img 
                                     src="logos/investo (1).png" 
                                     alt="Production Logo" 
-                                    className="inline-block w-50 h-50 h-auto"
+                                    className="inline-block w-32 h-32 md:w-48 md:h-48 object-contain"
                                 />
                             </h1>
-                            <p className="text-xs sm:text-sm md:text-base leading-relaxed md:11/12 px-14 text-justify">
+                            <p className="text-normal leading-normal md:11/12 px-14 text-justify mb-4 font-gotham">
                             Investo is a leading investment management company committed to delivering exceptional financial services that empower individuals and organizations 
 to achieve their investment goals. With a focus on personalized solutions, we offer a range of services including Asset Management, Retirement Planning, 
 and Wealth Advisory. Our team of expert advisors utilizes data-driven strategies to create effective investment portfolios, ensuring both short-term gains 
@@ -85,8 +85,8 @@ and long-term financial security.
                                     className="w-6 sm:w-8 md:w-10 h-6 sm:h-8 md:h-10 mr-3"
                                 />
                                 <div>
-                                    <h5 className="text-white font-bold text-sm sm:text-base md:text-lg mb-1">ASSET MANAGEMENT</h5>
-                                    <p className="text-xs sm:text-sm md:text-base leading-relaxed md:w-10/12">
+                                    <h5 className="text-white font-bold text-sm sm:text-base md:text-lg mb-1 font-gotham">ASSET MANAGEMENT</h5>
+                                    <p className="text-normal leading-normal md:w-10/12 font-gotham">
                                     Our Asset Management service is designed to maximize returns on your investments through strategic 
 allocation across various asset classes like equities, bonds, and real estate. We take a personalized 
 approach to understand your financial goals and risk tolerance, offering tailored investment solutions
@@ -102,8 +102,8 @@ approach to understand your financial goals and risk tolerance, offering tailore
                                     className="w-6 sm:w-8 md:w-10 h-6 sm:h-8 md:h-10 mr-3"
                                 />
                                 <div>
-                                    <h5 className="text-white font-bold text-sm sm:text-base md:text-lg mb-1">RETIREMENT PLANNING</h5>
-                                    <p className="text-xs sm:text-sm md:text-base leading-relaxed md:w-10/12 ">
+                                    <h5 className="text-white font-bold text-sm sm:text-base md:text-lg mb-1 font-gotham">RETIREMENT PLANNING</h5>
+                                    <p className="text-normal leading-normal md:w-10/12 font-gotham">
                                     With our Retirement Planning service, we help you secure a financially stable future. 
 We assess your retirement goals, current financial situation, and risk tolerance to 
 develop a long-term investment strategy that ensures a comfortable retirement.
@@ -119,8 +119,8 @@ develop a long-term investment strategy that ensures a comfortable retirement.
                                     className="w-6 sm:w-8 md:w-10 h-6 sm:h-8 md:h-10 mr-3"
                                 />
                                 <div>
-                                    <h5 className="text-white font-bold text-sm sm:text-base md:text-lg mb-1">WEALTH ADVISORY</h5>
-                                    <p className="text-xs sm:text-sm md:text-base leading-relaxed md:w-9/12">
+                                    <h5 className="text-white font-bold text-sm sm:text-base md:text-lg mb-1 font-gotham">WEALTH ADVISORY</h5>
+                                    <p className="text-normal leading-normal md:w-9/12 font-gotham">
                                     Our Wealth Advisory service offers holistic financial planning, including estate 
 planning, tax optimization, and risk management. Our advisors work closely with 
 you to create a comprehensive financial plan that aligns with your life goals.

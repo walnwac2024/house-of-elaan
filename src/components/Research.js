@@ -62,10 +62,10 @@ const Research = () => {
         <div id="kreator" className=" p-8 md:p-10 rounded-md">
           <div className="header mb-8 md:mb-10">
             <div className="logo mb-6 flex justify-center">
-              <img src="images/Elaan Reserch Centre.png" alt="Designing Icon" className="w-20 h-20 md:w-32 md:h-32 object-contain" />
+              <img src="images/Elaan Reserch Centre.png" alt="Designing Icon" className="w-32 h-32 md:w-48 md:h-48 object-contain" />
             </div>
             <div className="flex text-justify">
-              <p className="description text-base md:text-lg leading-relaxed text-center">
+              <p className="description text-normal leading-normal text-center font-gotham">
               Elaan Research Centre, based in Islamabad, Pakistan, serves as a leading think tank with a triad of focal areas: International Relations, Social Issues, and Cross-National Business Connectivity. Our mission is to provide insightful analysis and actionable solutions that have far-reaching implications both domestically and internationally. Leveraging a network of experts and scholars, we conduct comprehensive studies on geopolitical dynamics, societal challenges, and emerging business opportunities across borders. Elaan Research Centre aims to be a catalyst for informed decision-making and constructive change in Pakistan and beyond.
                 </p>
             </div>
@@ -74,24 +74,24 @@ const Research = () => {
           <div className="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-1">
             <div className="service text-center p-6 rounded-lg">
               <img src="images/International Relations.png" alt="Designing Icon" className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4" />
-              <h3 className="text-xl md:text-2xl font-bold mb-4">INTERNATIONAL RELATIONS</h3>
-              <p className="text-sm md:text-base">
+              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">INTERNATIONAL RELATIONS</h3>
+              <p className="text-normal leading-normal font-gotham">
               Elaan Research Centre has achieved a remarkable milestone by effectively gaining recognition for its services on international platforms.
               </p>
             </div>
 
             <div className="service text-center g-white/20 p-6 rounded-lg">
               <img src="images/Social Issues.png" alt="Photography Icon" className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4" />
-              <h3 className="text-xl md:text-2xl font-bold mb-4">SOCIAL ISSUES</h3>
-              <p className="text-sm md:text-base">
+              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">SOCIAL ISSUES</h3>
+              <p className="text-normal leading-normal font-gotham">
               Elaan Research Centre aims to bolster societal roles, foster institution contributions, and strengthen national infrastructure.
               </p>
             </div>
 
             <div className="service text-center p-6 rounded-lg">
               <img src="images/Connecting Businesses.png" alt="Digital Marketing Icon" className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4" />
-              <h3 className="text-xl md:text-2xl font-bold mb-4">CONNECTING BUSINESSES</h3>
-              <p className="text-sm md:text-base">
+              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">CONNECTING BUSINESSES</h3>
+              <p className="text-normal leading-normal font-gotham">
               To ensure that the Real Estate Industry continues to thrive and grow as a successful practice in the nation, it's crucial to establish bridgeable strategies that foster strong connections with its related businesses.
               </p>
             </div>

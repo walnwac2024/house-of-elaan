@@ -32,10 +32,10 @@ const CAndJ = () => {
         <div id="kreator" className=" p-8 md:p-10 rounded-md">
           <div className="header mb-8 md:mb-10">
             <div className="logo mb-6 flex justify-center">
-              <img src="logos/c&l (1).png" alt="Designing Icon" className="w-20 h-20 md:w-32 md:h-32 object-contain" />
+              <img src="logos/c&l (1).png" alt="Designing Icon" className="w-32 h-32 md:w-48 md:h-48 object-contain" />
             </div>
             <div className="flex text-justify">
-              <p className="description text-base md:text-lg leading-relaxed text-center">
+              <p className="description text-normal leading-normal text-center font-gotham">
               Etc is a multifaceted company specializing in the management of transport and food services, including event 
 					hospitality solutions. With a comprehensive approach to logistics and hospitality, we deliver seamless 
 					solutions designed to meet a wide array of needs. Our transport services ensure reliable and efficient mobility, 
@@ -47,27 +47,27 @@ const CAndJ = () => {
           </div>
 
           <div className="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            <div className="service text-center p-6 rounded-lg">
-              <img src="logos/Layer-3 (3).jpg" alt="Designing Icon" className="w-40 h-40 md:w-80 md:h-80 mx-auto mb-4" />
-              <h3 className="text-xl md:text-2xl font-bold mb-4">Transport Management Services</h3>
-              <p className="text-sm md:text-base">
+            <div className="service text-center py-6 rounded-lg">
+              <img src="logos/Layer-3 (3).jpg" alt="Designing Icon" className="w-40 h-24 md:w-80 md:h-60 mx-auto mb-4" />
+              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">Transport Management Services</h3>
+              <p className="text-normal leading-normal font-gotham">
               Our Transport Management Services are designed to provide reliable and efficient transportation solutions for individual and group travel needs.
               </p>
             </div>
 
             <div className="service text-center g-white/20 p-6 rounded-lg">
-              <img src="logos/Layer-4.png" alt="Photography Icon" className="w-40 h-40 md:w-80 md:h-80 mx-auto mb-4"/>
-              <h3 className="text-xl md:text-2xl font-bold mb-4">Food Services</h3>
-              <p className="text-sm md:text-base">
+              <img src="logos/Layer-4.png" alt="Photography Icon" className="w-40 h-24 md:w-80 md:h-60 mx-auto mb-4"/>
+              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">Food Services</h3>
+              <p className="text-normal leading-normal font-gotham">
               ETC's Food Services offer a range of culinary options to suit various tastes and dietary requirements, from daily meal plans for corporate offices to specialty cuisine for events.
               </p> 
             </div>
 
             <div className="service text-center p-6 rounded-lg">
-            <img src="logos/Layer-5.png" alt="Digital Marketing Icon" className="w-40 h-40 md:w-80 md:h-80 mx-auto mb-4" />
+            <img src="logos/Layer-5.png" alt="Digital Marketing Icon" className="w-40 h-24 md:w-80 md:h-60 mx-auto mb-4" />
 
-              <h3 className="text-xl md:text-2xl font-bold mb-4">Event Hospitality Solutions</h3>
-              <p className="text-sm md:text-base">
+              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">Event Hospitality Solutions</h3>
+              <p className="text-normal leading-normal font-gotham">
               Beyond mere catering, our Event Hospitality Solutions offer a complete package that includes food, beverages, and waitstaff. We manage everything from setup to teardown, ensuring guests enjoy a seamless and luxurious experience.
               </p>
             </div>

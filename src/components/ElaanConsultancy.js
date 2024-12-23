@@ -63,31 +63,31 @@ const ElaanConsultancy = () => {
               <img src="logos/elaanconsultancy.png" alt="Designing Icon" className="w-40 h-40 md:w-60 md:h-60 object-contain" />
             </div>
             <div className="block text-center">
-            <h3 className="text-xl font-bold mb-4">OUR CONSULTANCY ARM PROVIDES</h3>
-            <h1 className="text-2xl md:text-5xl font-bold mb-4 text-red-900">A RANGE OF SERViCES</h1>
+            <h3 className="text-xl">OUR CONSULTANCY ARM PROVIDES</h3>
+            <h1 className="text-2xl md:text-5xl font-bold mb-4 text-[#FF000E]">A RANGE OF SERViCES</h1>
               
             </div>
           </div>
 
-          <div className="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+          <div className="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-4">
             <div className="service text-center p-6 rounded-lg">
               <img src="images/Consultancy.png" alt="Designing Icon" className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4" />
-              <h3 className="text-xl md:text-xl font-bold mb-4">International Collaboration Consultancy</h3>
-              <p className="text-sm md:text-base">
+              <h3 className="text-base md:text-xl font-bold mb-4">International Collaboration Consultancy</h3>
+              <p className="text-sm md:text-base leading-normal">
               Facilitating B2B and G2G collaborations across 70 countries.</p>
             </div>
 
             <div className="service text-center g-white/20 p-6 rounded-lg">
               <img src="images/Legal Consulation.png" alt="Photography Icon" className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4" />
-              <h3 className="text-xl md:text-2xl font-bold mb-4">Legal Consultancy:</h3>
-              <p className="text-sm md:text-base">
+              <h3 className="text-base md:text-xl font-bold mb-4 px-20">Legal Consultancy</h3>
+              <p className="text-sm md:text-base leading-normal">
               A dedicated team offers legal solutions to complex issues.</p>
             </div>
 
             <div className="service text-center p-6 rounded-lg">
               <img src="images/Financial Consultancy.png" alt="Digital Marketing Icon" className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4" />
-              <h3 className="text-xl md:text-2xl font-bold mb-4">Financial Consultancy:</h3>
-              <p className="text-sm md:text-base">
+              <h3 className="text-base md:text-xl font-bold mb-4 px-20">Financial Consultancy</h3>
+              <p className="text-sm md:text-base leading-normal">
               Round-the-clock financial advice to vendors and businesses.
               </p>
             </div>

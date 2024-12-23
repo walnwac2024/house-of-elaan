@@ -30,10 +30,10 @@ const Dynamic = () => {
         <div id="kreator" className=" p-8 md:p-10 rounded-md">
           <div className="header mb-8 md:mb-10">
             <div className="logo mb-6 flex justify-center">
-              <img src="logos/Dyn.png" alt="Designing Icon" className="w-20 h-20 md:w-32 md:h-32 object-contain" />
+              <img src="logos/Dyn.png" alt="Designing Icon" className="w-32 h-32 md:w-48 md:h-48 object-contain" />
             </div>
             <div className="flex text-justify">
-              <p className="description text-base md:text-lg leading-relaxed text-center">
+              <p className="description text-normal leading-normal text-center font-gotham">
               Elaan Dynamics is a specialized software house with a core focus on web development and SaaS solutions. Leveraging 
 cutting-edge technologies like HTML, CSS, jQuery, PHP, and MySQLi, we deliver tailor-made services that meet the unique needs 
 of each client. Our offerings range from custom web development and SaaS product creation to comprehensive web 
@@ -42,11 +42,11 @@ scalable, secure, and effcient solutions that drive business success. </p>
             </div>
           </div>
 
-          <div className="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+          <div className="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-1">
             <div className="service text-center p-6 rounded-lg">
               <img src="logos/Custom Web Development.png" alt="Designing Icon" className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4" />
-              <h3 className="text-xl md:text-2xl font-bold mb-4">CUSTOM WEB DEVELOPMENT</h3>
-              <p className="text-sm md:text-base">
+              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">CUSTOM WEB DEVELOPMENT</h3>
+              <p className="text-normal leading-normal font-gotham">
               Our Custom Web Development 
 							service provides businesses with 
 							tailor-made websites that are both visually 
@@ -58,8 +58,8 @@ scalable, secure, and effcient solutions that drive business success. </p>
 
             <div className="service text-center g-white/20 p-6 rounded-lg">
               <img src="logos/Saas Product Development.png" alt="Photography Icon" className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4" />
-              <h3 className="text-xl md:text-2xl font-bold mb-4">SAAS PRODUCT DEVELOPMENT</h3>
-              <p className="text-sm md:text-base">
+              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">SAAS PRODUCT DEVELOPMENT</h3>
+              <p className="text-normal leading-normal font-gotham">
               We specialize in the full-cycle 
 							development of SaaS products. From initial 
 							ideation to final deployment, we provide 
@@ -70,11 +70,11 @@ scalable, secure, and effcient solutions that drive business success. </p>
               </p>
             </div>
 
-            <div className="service text-center p-6 rounded-lg">
+            <div className="service text-center py-6 rounded-lg">
               <img src="logos/Web Maintenance.png" alt="Digital Marketing Icon" className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4" />
-              <h3 className="text-xl md:text-2xl font-bold mb-4">WEB MAINTENANCE, OPTIMIZATION
+              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">WEB MAINTENANCE, OPTIMIZATION
 							& CLOUD MIGRATION</h3>
-              <p className="text-sm md:text-base">
+              <p className="text-normal leading-normal font-gotham">
               This service combines the essentials of regular 
 							web maintenance and cloud migration. We help 
 							businesses keep their websites up-to-date while 

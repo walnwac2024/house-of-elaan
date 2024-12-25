@@ -30,7 +30,7 @@ const Dynamic = () => {
         <div id="kreator" className=" p-8 md:p-10 rounded-md">
           <div className="header mb-8 md:mb-10">
             <div className="logo mb-6 flex justify-center">
-              <img src="logos/Dyn.png" alt="Designing Icon" className="w-32 h-32 md:w-48 md:h-48 object-contain" />
+              <img src="logos/Dyn.png" alt="Designing Icon" className="w-40 h-40 md:w-48 md:h-48 object-contain" />
             </div>
             <div className="flex text-justify">
               <p className="description text-normal leading-normal text-center font-gotham">

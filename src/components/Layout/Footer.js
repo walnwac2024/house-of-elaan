@@ -24,7 +24,7 @@ const Footer = () => {
             </svg>
           </div>
           <div className="ml-[18px]">
-            <a href="tel:+911800123444" className="font-Inter text-[14px] font-medium text-white">+91 1800123444</a>
+            <a href="tel:+911800123444" className="font-Inter text-[14px] font-medium text-white">+92 3111222679</a>
             <p className="font-Inter text-[12px] font-medium text-white">Support Number</p>
           </div>
         </div>
@@ -35,7 +35,7 @@ const Footer = () => {
             </svg>
           </div>
           <div className="ml-[18px]">
-            <a href="mailto:help@lorem.com" className="font-Inter text-[14px] font-medium text-[#fff]">help@lorem.com</a>
+            <a href="mailto:help@lorem.com" className="font-Inter text-[14px] font-medium text-[#fff]">hello@houseofelaan.com</a>
             <p className="font-Inter text-[12px] font-medium text-[#fff]">Support Email</p>
           </div>
         </div>
@@ -46,8 +46,7 @@ const Footer = () => {
             </svg>
           </div>
           <div className="ml-[18px]">
-            <a href="mailto:help@lorem.com" className="font-Inter text-[14px] font-medium text-[#fff]">Sub Nerul, Mumbia,
-              India, 123456</a>
+            <a href="mailto:help@lorem.com" className="font-Inter text-[14px] font-medium text-[#fff]">Office 1, 1st Floor, Gulberg Trade Center, Gulberg Greens Gulberg Greens Block B, Islamabad Capital Territory, Pakistan</a>
             <p className="font-Inter text-[12px] font-medium text-white">Address</p>
           </div>
         </div>
@@ -66,8 +65,14 @@ const Footer = () => {
         </div>
         <div className="mt-6 flex flex-col gap-4 sm:mt-0">
           <p className="text-deutziawhite font-inter text-[18px] font-medium">Download the app</p>
-          <div className="flex gap-4 sm:flex-col">
-            <a target="_blank" href="#"><img alt="facebook icon" loading="lazy" width={168} height={50} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/google-store.svg" /></a><a target="_blank" href="#"><img alt="facebook icon" loading="lazy" width={168} height={50} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/apple-store.svg" /></a>
+          <div className="flex gap-4 sm:flex-col" style={{width:180, height:40}}>
+           <iframe 
+									src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3323.2453017485564!2d73.15448232698365!3d33.59893924976759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfed3ba30fc869%3A0xf8095574642a913!2sElaan%20Marketing!5e0!3m2!1sen!2s!4v1733748309955!5m2!1sen!2s" 
+									allowfullscreen="" 
+									loading="lazy" 
+									referrerpolicy="no-referrer-when-downgrade">
+                    
+								</iframe>
           </div>
         </div>
       </div>
@@ -77,7 +82,7 @@ const Footer = () => {
       <p className="text-[10px] font-normal text-white md:text-[12px]">
         © Copyright
         2024
-        All Rights Reserved by YOUR WEBSITES. PVT. LTD
+        All Rights Reserved by House Of Elaan.
       </p>
     </div>
   </div>

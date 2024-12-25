@@ -4,7 +4,7 @@ import ResponsiveImage from './ResponsiveImage'
 
 const Mission = () => {
   return (
-    <div className="relative bg-[#FF000E] overflow-hidden pt-8 pb-8 sm:pt-48 sm:pb-48">
+    <div className="relative bg-[#FF000E] overflow-hidden pt-8 pb-8 sm:pt-48 sm:pb-48 flex align-middle">
       {/* Background Image */}
       <div className="absolute inset-0 z-0 ml-22 sm:ml-0">
       <picture>

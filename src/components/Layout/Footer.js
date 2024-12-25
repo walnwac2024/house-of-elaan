@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { CiFacebook } from "react-icons/ci";
+import { CiLinkedin } from "react-icons/ci";
+import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="mt-8 bg-[#FF000E] pt-9">
@@ -8,12 +11,25 @@ const Footer = () => {
       <div className="md:w-[316px]">
         <p className="text-[18px] font-medium text-white">
         </p><h1 className="text-white font-extrabold">
-          <span className="text-rose-600">YOUR</span>LOGO
+          <span >House Of</span>Elaan
         </h1>
         <p />
         <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">House of Elaan is a dynamic conglomerate with expertise across various industries, including construction, sales and marketing, IT, and architecture. We are dedicated to delivering top-notch financial and legal services that align with global standards.</p>
         <div className="mt-[18px] flex gap-4">
-          <a className="hover:scale-110" target="_blank" href="#"><img alt="facebook icon" loading="lazy" width={36} height={36} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/facebook.svg" /></a><a className="hover:scale-110" target="_blank" href="/"><img alt="linkdin icon" loading="lazy" width={36} height={36} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/linkdin.svg" /></a><a className="hover:scale-110" target="_blank" href="/"><img alt="instagram icon" loading="lazy" width={36} height={36} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/instagram1.svg" /></a><a className="hover:scale-110" target="_blank" href><img alt="twitter icon" loading="lazy" width={36} height={36} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/twitter.svg" /></a><a className="hover:scale-110" target="_blank" href="https://www.youtube.com/"><img alt="youtube icon" loading="lazy" width={36} height={36} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/youtube.svg" /></a>
+        <a className="hover:scale-110 w-9 h-9 bg-white flex items-center justify-center rounded-full" target="_blank" href="https://www.facebook.com/Houseofelaan">
+          <CiFacebook className="text-[#FF000E] w-6 h-6" />
+        </a>
+        <a className="hover:scale-110 w-9 h-9 bg-white flex items-center justify-center rounded-full" target="_blank" href="https://www.linkedin.com/company/95951288/admin/dashboard/">
+          <CiLinkedin className="text-[#FF000E] w-6 h-6" />
+        </a>
+        <a className="hover:scale-110 w-9 h-9 bg-white flex items-center justify-center rounded-full" target="_blank" href="https://www.instagram.com/houseofelaan/">
+          <FaInstagram className="text-[#FF000E] w-6 h-6" />
+        </a>
+
+          {/* <a className="hover:scale-110" target="_blank" href="/"><img alt="linkdin icon" loading="lazy" width={36} height={36} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/linkdin.svg" /></a>
+          <a className="hover:scale-110" target="_blank" href="/"><img alt="instagram icon" loading="lazy" width={36} height={36} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/instagram1.svg" /></a>
+          <a className="hover:scale-110" target="_blank" href><img alt="twitter icon" loading="lazy" width={36} height={36} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/twitter.svg" /></a>
+          <a className="hover:scale-110" target="_blank" href="https://www.youtube.com/"><img alt="youtube icon" loading="lazy" width={36} height={36} decoding="async" data-nimg={1} style={{color: 'transparent'}} src="https://www.englishyaari.com/img/youtube.svg" /></a> */}
         </div>
       </div>
       <div className="md:w-[316px]">
@@ -56,11 +72,11 @@ const Footer = () => {
           <p className="text-deutziawhite font-inter text-[18px] font-medium leading-normal">Pages</p>
           <ul>
             <li className="mt-[15px]"><a className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="/">Home</a></li>
-            <li className="mt-[15px]"><a className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="/our-tutors">News</a></li>
-            <li className="mt-[15px]"><a className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="/become-a-tutor">Contact</a></li>
-            <li className="mt-[15px]"><a className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="/plans-and-pricing">Plans and pricing</a></li>
-            <li className="mt-[15px]"><a className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="/terms-and-conditions">Terms and conditions</a></li>
-            <li className="mt-[15px]"><a className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="/privacy-policy">Privcay policy</a></li>
+            <li className="mt-[15px]"><a className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="#aboutus">About Us</a></li>
+            <li className="mt-[15px]"><a className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="#our-mission">Our Mission</a></li>
+            <li className="mt-[15px]"><a className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="#our-vision">Our Vision</a></li>
+            <li className="mt-[15px]"><a className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="#our-core-value">Our Core Value</a></li>
+            <li className="mt-[15px]"><a className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold" href="#our-companies">Our Companies</a></li>
           </ul>
         </div>
         <div className="mt-6 flex flex-col gap-4 sm:mt-0">

@@ -34,8 +34,8 @@ const CAndJ = () => {
             <div className="logo mb-6 flex justify-center">
               <img src="logos/c&l (1).png" alt="Designing Icon" className="w-32 h-32 md:w-48 md:h-48 object-contain" />
             </div>
-            <div className="flex text-justify">
-              <p className="description text-normal leading-normal text-center font-gotham">
+            <div className="flex justify-center text-justify">
+              <p className="description text-normal leading-normal font-gotham xl:w-[70%]">
               Etc is a multifaceted company specializing in the management of transport and food services, including event 
 					hospitality solutions. With a comprehensive approach to logistics and hospitality, we deliver seamless 
 					solutions designed to meet a wide array of needs. Our transport services ensure reliable and efficient mobility, 

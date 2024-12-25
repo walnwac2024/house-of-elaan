@@ -29,11 +29,11 @@ const Dynamic = () => {
       <div className="relative z-10 text-white px-6 py-10 lg:px-20">
         <div id="kreator" className=" p-8 md:p-10 rounded-md">
           <div className="header mb-8 md:mb-10">
-            <div className="logo mb-6 flex justify-center">
-              <img src="logos/Dyn.png" alt="Designing Icon" className="w-40 h-40 md:w-48 md:h-48 object-contain" />
+            <div className="logo mb-6 flex justify-center  ">
+              <img src="logos/Dyn.png" alt="Designing Icon" className="w-40 h-40 md:w-60 md:h-60 object-contain" />
             </div>
-            <div className="flex text-justify">
-              <p className="description text-normal leading-normal text-center font-gotham">
+            <div className="flex justify-center text-justify">
+              <p className="description text-normal leading-normal font-gotham xl:w-[70%]">
               Elaan Dynamics is a specialized software house with a core focus on web development and SaaS solutions. Leveraging 
 cutting-edge technologies like HTML, CSS, jQuery, PHP, and MySQLi, we deliver tailor-made services that meet the unique needs 
 of each client. Our offerings range from custom web development and SaaS product creation to comprehensive web 

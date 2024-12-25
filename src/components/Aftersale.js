@@ -5,7 +5,7 @@ const Aftersale = () => {
     <>
       <div className="relative w-full bg-[#FF000E] h-96 sm:min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute z-0">
-          <picture>
+          {/* <picture>
             <source
               media="(max-width: 640px)"
               srcSet="HOE/Aftersale-mobile.jpg"
@@ -21,7 +21,14 @@ const Aftersale = () => {
               alt="Scenic View"
               className="w-full h-auto object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-105"
             />
-          </picture>
+          </picture> */}
+          <div class="responsive-container">
+  <img
+    src="HOE/After Sale Services.jpg"
+    alt="Responsive Image"
+    class="responsive-image"
+  />
+</div>
         </div>
 
         <div className="relative z-10 w-full">

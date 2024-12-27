@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="md:w-[316px]">
         <p className="text-[18px] font-medium text-white">
         </p><h1 className="text-white font-extrabold">
-          <span >House Of</span>Elaan
+          <span >House Of</span> Elaan
         </h1>
         <p />
         <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">House of Elaan is a dynamic conglomerate with expertise across various industries, including construction, sales and marketing, IT, and architecture. We are dedicated to delivering top-notch financial and legal services that align with global standards.</p>

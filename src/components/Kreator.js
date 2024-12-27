@@ -31,8 +31,8 @@ const Kreator = () => {
             <div className="logo mb-6 flex justify-center">
               <img src="logos/kreat.png" alt="Designing Icon" className="w-32 h-32 md:w-48 md:h-48 object-contain" />
             </div>
-            <div className="flex text-justify">
-              <p className="description text-normal leading-normal text-center font-gotham">
+            <div className="flex justify-center text-justify">
+              <p className="description text-normal leading-normal font-gotham xl:w-[70%]">
                 Kreators is a full-service advertising agency specializing in a broad spectrum of creative and digital solutions. With expertise in design services, digital marketing, SEO, as well as photography and videography, we offer a one-stop solution for brands seeking to make a significant impact in their respective markets. Our multidisciplinary approach allows us to deliver cohesive and innovative strategies that drive engagement and business growth. From crafting visually stunning designs to optimizing online presence through SEO, Kreators is committed to elevating our brand’s identity and reach, both online and offline.
               </p>
             </div>

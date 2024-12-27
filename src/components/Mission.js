@@ -26,7 +26,7 @@ const Mission = () => {
 
       {/* Mission Content */}
       <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8">
-        <div className="w-[50%] xs:w-[50%] sm:w-[40%] rounded-lg xs:p-4 sm:p-6 lg:p-8 xl:p-10 sm:ml-[10%] xs:ml-0 ml-[10%]">
+        <div className="w-[50%] xs:w-[50%] sm:w-[40%] xl:w-[30%] rounded-lg xs:p-4 sm:p-6 lg:p-8 xl:p-10 sm:ml-[10%] xs:ml-0 xl:ml-[20%] ml-[10%]">
           {/* Mission Title */}
           <h2 className="text-base xs:text-base sm:text-lg md:text-2xl lg:text-3xl font-bold mb-1 font-gotham">
             Our <span className="text-white">Mission</span>

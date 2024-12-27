@@ -5,7 +5,7 @@ const Aftersale = () => {
     <>
       <div className="relative w-full bg-[#FF000E] h-96 sm:min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute z-0">
-          <picture>
+          {/* <picture>
             <source
               media="(max-width: 640px)"
               srcSet="HOE/Aftersale-mobile.jpg"
@@ -21,11 +21,18 @@ const Aftersale = () => {
               alt="Scenic View"
               className="w-full h-auto object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-105"
             />
-          </picture>
+          </picture> */}
+          <div class="responsive-container">
+  <img
+    src="HOE/After Sale Services.jpg"
+    alt="Responsive Image"
+    class="responsive-image"
+  />
+</div>
         </div>
 
         <div className="relative z-10 w-full">
-          <div className="pl-[42%] xs:pl-[45%] mt-[-27%] xs:mt-[-20%] sm:mt-[-15%] md:mt-[-17%] lg:mt-[-17%] xl:mt-[-17%] w-[90%] xs:w-[85%] sm:w-[90%] md:w-[80%] lg:w-[80%] xl:w-[75%] rounded-lg text-center">
+          <div className="pl-[42%] xs:pl-[45%] mt-[-27%] xs:mt-[-20%] sm:mt-[-15%] md:mt-[-17%] lg:mt-[-17%] xl:mt-[-15%] w-[90%] xs:w-[85%] sm:w-[90%] md:w-[80%] lg:w-[80%] xl:w-[75%] rounded-lg text-center">
             {/* About Us Title */}
             <h2 className="text-lg xs:text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-left mb-0 xs:mb-1 sm:mb-4 leading-none">
               <span className="text-white">AFTER SALES</span>

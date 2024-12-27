@@ -62,10 +62,10 @@ const Research = () => {
         <div id="kreator" className=" p-8 md:p-10 rounded-md">
           <div className="header mb-8 md:mb-10">
             <div className="logo mb-6 flex justify-center">
-              <img src="images/Elaan Reserch Centre.png" alt="Designing Icon" className="w-32 h-32 md:w-48 md:h-48 object-contain" />
+              <img src="images/Elaan Reserch Centre.png" alt="Designing Icon" className="w-32 h-32 md:w-60 md:h-60 object-contain" />
             </div>
-            <div className="flex text-justify">
-              <p className="description text-normal leading-normal text-center font-gotham">
+            <div className="flex justify-center text-justify">
+              <p className="description text-normal leading-normal font-gotham xl:w-[70%]">
               Elaan Research Centre, based in Islamabad, Pakistan, serves as a leading think tank with a triad of focal areas: International Relations, Social Issues, and Cross-National Business Connectivity. Our mission is to provide insightful analysis and actionable solutions that have far-reaching implications both domestically and internationally. Leveraging a network of experts and scholars, we conduct comprehensive studies on geopolitical dynamics, societal challenges, and emerging business opportunities across borders. Elaan Research Centre aims to be a catalyst for informed decision-making and constructive change in Pakistan and beyond.
                 </p>
             </div>

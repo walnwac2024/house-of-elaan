@@ -18,7 +18,7 @@ const AboutUs = () => {
 
         {/* Main content */}
         <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8">
-          <div className="mt-[-7%] xs:ml-[20%] xs:mt-[-2%] sm:mt-0 ml-[25%] sm:ml-[25%] md:ml-[25%] lg:ml-[25%] w-[75%] sm:w-[50%] md:w-[60%] lg:w-[50%] xl:w-[43%] bg-white/80 backdrop-blur-sm rounded-lg pt-1 xs:pt-0 sm:p-6 lg:p-8 xl:p-8">
+          <div className="mt-[-7%] xs:ml-[20%] xs:mt-[-2%] xl:mt-[-5%] sm:mt-0 ml-[25%] sm:ml-[25%] md:ml-[25%] lg:ml-[25%] xl:ml-[30%] w-[75%] sm:w-[50%] md:w-[60%] lg:w-[50%] xl:w-[30%] bg-white/80 backdrop-blur-sm rounded-lg pt-1 xs:pt-0 sm:p-6 lg:p-8 xl:p-8">
             {/* About Us Title */}
             <h1 className=" text-base xs:text-base sm:text-lg md:text-2xl lg:text-3xl font-bold text-left mb-0  sm:mb-1 font-gotham">
               <span className="text-[#FF000E]">About</span> <span className="text-black">us</span>

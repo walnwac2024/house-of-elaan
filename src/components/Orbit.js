@@ -16,7 +16,7 @@ const Orbit = () => {
       />
     </div>
   
-        {/* Responsive Orbits */}
+     
         <div className="orbit orbit-0 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border border-white/40 rounded-full z-0 w-[20%] aspect-square"></div>
         <div className="orbit orbit-1 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border border-white/40 rounded-full z-0 w-[40%] aspect-square"></div>
         <div className="orbit orbit-2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border border-white/40 rounded-full z-0 w-[60%] aspect-square"></div>

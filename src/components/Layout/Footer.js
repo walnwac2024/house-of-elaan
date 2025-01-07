@@ -80,7 +80,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="mt-6 flex flex-col gap-4 sm:mt-0">
-          <p className="text-deutziawhite font-inter text-[18px] font-medium">Download the app</p>
+          <p className="text-deutziawhite font-inter text-[18px] font-medium">Location</p>
           <div className="flex gap-4 sm:flex-col" style={{width:180, height:40}}>
            <iframe 
 									src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3323.2453017485564!2d73.15448232698365!3d33.59893924976759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfed3ba30fc869%3A0xf8095574642a913!2sElaan%20Marketing!5e0!3m2!1sen!2s!4v1733748309955!5m2!1sen!2s" 

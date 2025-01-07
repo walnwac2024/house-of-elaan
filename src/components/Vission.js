@@ -2,7 +2,7 @@ import React from 'react'
 
 const Vision = () => {
   return (
-    <div className="relative w-full pl-5 sm:ml-20 pt-10 pb-8 sm:pt-48 sm:pb-48 overflow-hidden">
+    <div className="relative pl-5 sm:ml-20 pt-10 pb-8 sm:pt-48 sm:pb-48 overflow-hidden">
       <div className="absolute inset-0 z-0 overflow-hidden">
       <picture>
         <img 

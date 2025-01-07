@@ -21,13 +21,25 @@ function Home () {
   return (
     <Layout>
       <div className="relative w-full h-screen overflow-hidden" id="#">
-        <div className="absolute inset-0 animate-zoom-in">
-          <img 
-            src="HOE/HOELogo.jpg" 
-            alt="Scenic View" 
-            className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105"
-          />
-        </div>
+      <div className="relative h-screen w-full overflow-hidden">
+      {/* Background image with zoom-in animation */}
+      <div className="absolute inset-0 animate-zoom-in">
+        <img 
+          src="HOE/HOELogo.jpg" 
+          alt="Scenic View" 
+          className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105"
+        />
+      </div>
+
+      {/* Overlay image with zoom-out animation */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[40%] h-[25%] animate-zoom-out-overlay">
+        <img 
+          src="logos/HOE-Elaan-logo.png"
+          alt="Overlay Image" 
+          className="w-full h-full object-cover object-center rounded-lg shadow-xl"
+        />
+      </div>
+    </div>
       </div>
 
       <section id="aboutus">
@@ -102,4 +114,44 @@ function Home () {
 
 export default Home;
 
+const style = document.createElement('style');
+style.textContent = `
+  @keyframes zoomIn {
+    0% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes zoomOutOverlay {
+    0%, 20% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+    90% {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1.3);
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1.3);
+      opacity: 1;
+    }
+  }
+
+  .animate-zoom-in {
+    animation: zoomIn 1.5s ease-out forwards;
+  }
+
+  .animate-zoom-out-overlay {
+    animation: zoomOutOverlay 4s ease-in-out forwards;
+    animation-delay: 1s;
+  }
+`;
+document.head.appendChild(style);
 

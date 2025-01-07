@@ -16,7 +16,7 @@ const Header = () => {
           <div className="flex shrink-0">
             <a aria-current="page" className="flex items-center" href="/">
               <img 
-                className="h-7 w-auto" 
+                className="h-8 w-8" 
                 src="images/Elaan-logo.png" 
                 alt="Logo" 
               />

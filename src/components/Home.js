@@ -32,7 +32,7 @@ function Home () {
       </div>
 
       {/* Overlay image with zoom-out animation */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[40%] h-[25%] animate-zoom-out-overlay">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:w-[40%] md:h-[25%] animate-zoom-out-overlay">
         <img 
           src="logos/HOE-Elaan-logo.png"
           alt="Overlay Image" 

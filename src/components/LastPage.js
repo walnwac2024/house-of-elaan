@@ -64,7 +64,7 @@ const LastPage = () => {
         </div> */}
 
         <div className="relative z-10 w-full flex px-4 sm:px-6 lg:px-8">
-          <div className="ml-[25%] sm:ml-[28%] md:ml-[25%] lg:ml-[30%] sm:mt-[-10%] md:mt-16 2xl:mt-0 w-full w-[40%] md:w-[60%] lg:w-[55%] 2xl:w-[33%] bg-white/80 backdrop-blur-sm rounded-lg p-4 xxs:pt-10 xs:pt-0 sm:p-6 lg:p-8 xl:p-8">
+          <div className="ml-[25%] sm:ml-[28%] md:ml-[25%] lg:ml-[30%] sm:mt-[-10%] md:mt-16 2xl:mt-0 w-full w-[40%] md:w-[60%] lg:w-[55%] 2xl:w-[33%] bg-white/80 backdrop-blur-sm rounded-lg p-4 xxs:pt-[-10%] xs:pt-0 sm:p-6 lg:p-8 xl:p-8">
             {/* About Us Title */}
             <h3 className="text-base sm:text-xl md:text-3xl lg:text-4xl  leading-normal font-extra-bold  text-left mb-0 pt-8 sm:pt-4 md:pt-0 sm:mb-0 w-[90%]">
               <span className="text-[#E62E2D]">HOUSE OF ELAAN IS

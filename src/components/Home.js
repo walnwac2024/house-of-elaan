@@ -36,7 +36,7 @@ function Home () {
         <img 
           src="logos/HOE-Elaan-logo.png"
           alt="Overlay Image" 
-          className="w-full h-full object-cover object-center rounded-lg shadow-xl"
+          className="w-full h-full object-cover object-center rounded-lg"
         />
       </div>
     </div>

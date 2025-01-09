@@ -4,7 +4,7 @@ import ResponsiveImage from './ResponsiveImage';
 const LastPage = () => {
   return (
     <>
-      <div className="relative w-full min-h-screen overflow-hidden">
+      <div className="relative w-full h-96 sm:min-h-screen overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           {/* <ResponsiveImage

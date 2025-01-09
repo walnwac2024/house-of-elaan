@@ -3,17 +3,17 @@ import React from 'react';
 const Aftersale = () => {
   return (
     <>
-      <div className="relative w-full bg-[#FF000E] h-96 sm:min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute z-0">
-          {/* <picture>
+      <div className="relative w-full bg-[#FF000E] h-96 sm:min-h-screen flex items-center justify-center overflow-hidden py-8">
+        <div className="absolute inset-0 z-0">
+          <picture>
             <source
               media="(max-width: 640px)"
-              srcSet="HOE/Aftersale-mobile.jpg"
+              srcSet="HOE/aftermobile.png"
               className="w-full h-auto object-cover object-center"
             />
             <source
               media="(min-width: 641px) and (max-width: 1024px)"
-              srcSet="HOE/After Sale Services.jpg"
+              srcSet="HOE/aftertablet.png"
               className="w-full h-auto object-cover object-center"
             />
             <img
@@ -21,14 +21,14 @@ const Aftersale = () => {
               alt="Scenic View"
               className="w-full h-auto object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-105"
             />
-          </picture> */}
-          <div class="responsive-container">
+          </picture>
+          {/* <div class="responsive-container">
   <img
     src="HOE/After Sale Services.jpg"
     alt="Responsive Image"
     class="responsive-image"
   />
-</div>
+</div> */}
         </div>
 
         <div className="relative z-10 w-full">

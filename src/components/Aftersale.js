@@ -19,7 +19,7 @@ const Aftersale = () => {
             <img
               src="HOE/After Sale Services.jpg"
               alt="Scenic View"
-              className="w-full h-auto object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-105"
+              className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-105"
             />
           </picture>
           {/* <div class="responsive-container">
@@ -32,7 +32,7 @@ const Aftersale = () => {
         </div>
 
         <div className="relative z-10 w-full">
-          <div className="pl-[42%] xs:pl-[45%] mt-[-27%] xs:mt-[-20%] sm:mt-[-15%] md:mt-[-17%] lg:mt-[-17%] xl:mt-[-15%] w-[90%] xs:w-[85%] sm:w-[90%] md:w-[80%] lg:w-[80%] xl:w-[75%] rounded-lg text-center">
+          <div className="pl-[53%] sm:pl-[45%] mt-[-27%] xs:mt-[-20%] sm:mt-[-15%] md:mt-[-17%] lg:mt-[-17%] xl:mt-[-15%] w-[95%]  xs:w-[90%] sm:w-[90%] md:w-[80%] lg:w-[80%] xl:w-[75%] rounded-lg text-center">
             {/* About Us Title */}
             <h2 className="text-lg xs:text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-left mb-0 xs:mb-1 sm:mb-4 leading-none">
               <span className="text-white">AFTER SALES</span>

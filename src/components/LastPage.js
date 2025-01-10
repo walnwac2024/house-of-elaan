@@ -35,8 +35,8 @@ const LastPage = () => {
         </div>
 
         {/* Content Section */}
-        <div className="absolute top-32 lg:top-64 lg:top-96 left-0 right-0 z-10 flex items-start justify-center p-4 sm:p-6 lg:p-8">
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg w-full max-w-[70%] sm:max-w-[45%] md:max-w-[45%] lg:max-w-[40%] xl:max-w-[25%] p-4 sm:p-6 lg:p-8 ml-28">
+        <div className="absolute top-32 lg:top-48 left-0 right-0 z-10 flex items-start justify-center p-4 sm:p-6 lg:p-8">
+          <div className="bg-white/80 backdrop-blur-sm rounded-lg w-full max-w-[70%] sm:max-w-[45%] md:max-w-[45%] lg:max-w-[45%] xl:max-w-[40%] p-4 sm:p-6 lg:p-8 ml-28">
             {/* About Us Title */}
             <h3 className="text-base sm:text-xl md:text-3xl lg:text-4xl leading-normal font-bold text-left sm:text-left">
               <span className="text-[#E62E2D]">HOUSE OF ELAAN IS MORE THAN A GROUP OF COMPANIES</span>
@@ -44,7 +44,7 @@ const LastPage = () => {
 
             {/* About Us Description */}
             <p className="text-xs sm:text-normal text-black leading-normal text-left sm:text-justify">
-              IT IS A REVOLUTION IN MODERN BUSINESS SOLUTIONS. WE INVITE YOU TO BE PART OF OUR JOURNEY TOWARDS
+              IT IS A REVOLUTION IN MODERN BUSINESS SOLUTIONS. <span className='block'> WE INVITE YOU TO BE PART OF OUR JOURNEY TOWARDS</span>
             </p>
 
             {/* Highlighted Future Statement */}

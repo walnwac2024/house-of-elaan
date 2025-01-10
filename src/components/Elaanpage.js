@@ -77,7 +77,7 @@ const Elaanpage = () => {
                                             src={image} 
                                             alt={`Image ${index + 1}`} 
                                             ref={(el) => imageRefs.current[image] = el}
-                                            className={`w-full sm:w-[calc(33%-1rem)] md:w-[calc(25%-1rem)] object-cover cursor-pointer transition-transform duration-300 hover:scale-105 
+                                            className={`w-[calc(25%-1rem)] sm:w-[calc(33%-1rem)] md:w-[calc(25%-1rem)] object-cover cursor-pointer transition-transform duration-300 hover:scale-105 
                                                 ${selectedImage === image && isAnimating 
                                                     ? 'absolute inset-0 w-full h-full z-50' 
                                                     : 'relative'}`}

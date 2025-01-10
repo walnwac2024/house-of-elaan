@@ -57,9 +57,9 @@ const Investo = () => {
             {/* Content Overlay */}
             <div className="relative z-10 bg-opacity-50 flex items-center px-10 pt-12 pb-8 pl-6 text-justify">
                 <div className="w-full lg:10/12 px-4 sm:px-6 md:px-8 lg:px-16 text-white">
-                    <div className="flex flex-col space-y-6">
+                    <div className="flex flex-col sm:space-y-6">
                         {/* Left Section */}
-                        <div className="flex flex-col w-11/12 items-center">
+                        <div className="flex flex-col w-full sm:w-11/12 items-center">
                             <h1 className="font-bold text-xl sm:text-2xl md:text-3xl mb-3">
                                 <img 
                                     src="logos/investo (1).png" 

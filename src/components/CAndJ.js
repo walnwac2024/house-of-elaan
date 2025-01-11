@@ -36,12 +36,10 @@ const CAndJ = () => {
             </div>
             <div className="flex justify-center text-justify">
               <p className="description text-normal leading-normal font-gotham xl:w-[70%]">
-              Etc is a multifaceted company specializing in the management of transport and food services, including event 
-					hospitality solutions. With a comprehensive approach to logistics and hospitality, we deliver seamless 
-					solutions designed to meet a wide array of needs. Our transport services ensure reliable and efficient mobility, 
-					whether for individuals or large groups, while our food and catering offerings are tailored to delight the palate 
-					and elevate any event. With a focus on quality, convenience, and customer satisfaction, Etc stands as a 
-					one-stop solution for all your transport and culinary requirements.
+              CNL stands for Comfort And Luxury, and that's precisely what we offer.We specialize in owning and managing a portfolio of luxury guest houses that set 
+the standard for exceptional hospitality. Each of our meticulously curated properties boasts an array of first-rate amenities and bespoke services, offering 
+guests an experience that seamlessly blends opulence with comfort. Catering to discerning individual travelers in search of sumptuous escapes, as well as 
+corporate clients seeking upscale retreats, CNL is steadfast in our commitment to deliver unparalleled excellence across all facets of our service.
 				  </p>
             </div>
           </div>

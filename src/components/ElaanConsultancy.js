@@ -64,7 +64,7 @@ const ElaanConsultancy = () => {
             </div>
             <div className="block text-center">
             <h3 className="text-xl">OUR CONSULTANCY ARM PROVIDES</h3>
-            <h1 className="text-2xl md:text-5xl font-bold mb-4 text-[#FF000E]">A RANGE OF SERViCES</h1>
+            <h1 className="text-2xl md:text-5xl font-bold mb-4 text-[#FF000E]">A RANGE OF SERVICES</h1>
               
             </div>
           </div>

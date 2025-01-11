@@ -59,7 +59,7 @@ and luxury.
               </p>
             </div>
 
-            <div className="service text-center g-white/20 p-6 rounded-lg">
+            <div className="service text-center g-white/20 p-3 rounded-lg">
               <img src="logos/Layer-4.png" alt="Photography Icon" className="w-40 h-24 md:w-80 md:h-60 mx-auto mb-4"/>
               <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">EVENT HOSTING & PLANNING</h3>
               <p className="text-normal leading-normal font-gotham text-justify">
@@ -72,7 +72,7 @@ as luxurious as your stay.
               </p> 
             </div>
 
-            <div className="service text-center p-6 rounded-lg">
+            <div className="service text-center p-3 rounded-lg">
             <img src="logos/Layer-5.png" alt="Digital Marketing Icon" className="w-40 h-24 md:w-80 md:h-60 mx-auto mb-4" />
 
               <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">BUSINESS RETREAT SERVICES</h3>

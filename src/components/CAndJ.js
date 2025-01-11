@@ -47,26 +47,43 @@ corporate clients seeking upscale retreats, CNL is steadfast in our commitment t
           <div className="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             <div className="service text-center py-6 rounded-lg">
               <img src="logos/Layer-3 (3).jpg" alt="Designing Icon" className="w-40 h-24 md:w-80 md:h-60 mx-auto mb-4" />
-              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">Transport Management Services</h3>
-              <p className="text-normal leading-normal font-gotham">
-              Our Transport Management Services are designed to provide reliable and efficient transportation solutions for individual and group travel needs.
+              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">LUXURY ACCOMMODATIONS</h3>
+              <p className="text-normal leading-normal font-gotham text-justify">
+              Our Luxury Accommodations service offers 
+guests the ultimate stay experience with 
+high-end amenities, including private pools, 
+state-of-the-art entertainment systems, and 
+personal concierge service. Each guest house 
+is designed to provide unparalleled comfort 
+and luxury.
               </p>
             </div>
 
             <div className="service text-center g-white/20 p-6 rounded-lg">
               <img src="logos/Layer-4.png" alt="Photography Icon" className="w-40 h-24 md:w-80 md:h-60 mx-auto mb-4"/>
-              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">Food Services</h3>
-              <p className="text-normal leading-normal font-gotham">
-              ETC's Food Services offer a range of culinary options to suit various tastes and dietary requirements, from daily meal plans for corporate offices to specialty cuisine for events.
+              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">EVENT HOSTING & PLANNING</h3>
+              <p className="text-normal leading-normal font-gotham text-justify">
+              Our guest houses serve as the perfect venue 
+for exclusive events such as intimate 
+weddings, anniversaries, or corporate 
+gatherings. We offer full-service planning, 
+from decor to catering, ensuring your event is 
+as luxurious as your stay.
               </p> 
             </div>
 
             <div className="service text-center p-6 rounded-lg">
             <img src="logos/Layer-5.png" alt="Digital Marketing Icon" className="w-40 h-24 md:w-80 md:h-60 mx-auto mb-4" />
 
-              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">Event Hospitality Solutions</h3>
-              <p className="text-normal leading-normal font-gotham">
-              Beyond mere catering, our Event Hospitality Solutions offer a complete package that includes food, beverages, and waitstaff. We manage everything from setup to teardown, ensuring guests enjoy a seamless and luxurious experience.
+              <h3 className="text-base md:text-xl font-bold mb-4 font-gotham">BUSINESS RETREAT SERVICES</h3>
+              <p className="text-normal leading-normal font-gotham text-justify">
+              CNL provides an exclusive service tailored for 
+corporate clients looking for a luxurious yet 
+productive retreat. Our guest houses are 
+equipped with modern meeting rooms, 
+high-speed internet, and other essential business 
+amenities, offering an ideal environment for team 
+building and strategic planning.
               </p>
             </div>
           </div>
